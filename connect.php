@@ -1,6 +1,6 @@
 <?php
 	$user = 'root';
-	$pass = 'qwerty860';
+	$pass = '';
 	$host = 'localhost';
 	$db = 'arkademy';
 
