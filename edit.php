@@ -70,7 +70,7 @@
                         <label class="col-sm-2">Nama</label>
                         <div class="col-sm-10">
                             <?php
-                                echo '<input type="text" class="form-control" name="name" required value='.$col['nama_produk'].'>';
+                                echo '<input type="text" class="form-control" name="name" required value="'.@$col['nama_produk'].'">';
                             ?>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                         <label class="col-sm-2">Keterangan </label>
                         <div class="col-sm-10">
                             <?php
-                                echo '<input type="text" class="form-control" name="ket" required value='.$col['keterangan'].'>';
+                                echo '<input type="text" class="form-control" name="ket" required value="'.$col['keterangan'].'">';
                             ?>
                         </div>
                     </div>
